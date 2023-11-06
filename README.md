@@ -14,6 +14,6 @@ To run test: npm run wdio
 
 Notes:
 - parallel execution enabled via 'Instances:3' option in wdio.conf.js
-- logging enabled via Instances 'logLevel:warning' option in wdio.conf.js. But in task needed log level is not specified. I've set 'warn'
+- logging enabled via Instances 'logLevel:warn' option in wdio.conf.js. But in task needed log level is not specified. I've set 'warn'
 - parametrized browser option using .env file and 'browserName: process.env.BROWSER' option in wdio.conf.js. I don't know how to do next part of task 'use tagging to parametrize tests suite run' as per wdio doc it is possible only with cucumber...and we need to use Mocha
 - For Empty credentials scenario ClearValue method was not used as in case of it using error message does not appear. So had to use Backspace key
